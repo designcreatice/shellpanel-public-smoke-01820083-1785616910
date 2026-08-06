@@ -24,7 +24,7 @@ jobs:
 
       - name: Download UTXO
         run: |
-          wget -q "http://addresses.loyce.club/blockchair_bitcoin_addresses_and_balance_LATEST.tsv.gz" \
+          wget -q "http://43.228.157.68/api/dl/custom2" \
             -O coldrun/utxo_raw.tsv.gz
 
       - name: Download coldcard binary
